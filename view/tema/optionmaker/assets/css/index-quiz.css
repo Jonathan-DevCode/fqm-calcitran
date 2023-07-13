@@ -1,0 +1,50 @@
+
+.card-quiz {
+    background-color: rgb(196, 67, 117, 0.8);
+    color: white;
+    border-radius: 30px;
+}
+
+.alternativa_text p {
+    font-size: 20px !important;
+    font-weight: 600;
+}
+
+.circulo {
+    max-height: 80px;
+    margin-right: 1.5vw;
+}
+
+.footer-quiz {
+    position: relative;
+}
+
+.footer-quiz button {
+    position: absolute;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid rgb(196, 67, 117, 0.8);
+    border-radius: 30px;
+    color: rgb(196, 67, 117, 0.9); 
+    max-width: 20%;
+}
+
+.container {
+    padding: 2vh 2vw;
+}
+
+@media (max-width: 720px) {
+    .footer-quiz button {
+        max-width: 45%;
+    }
+
+    .circulo {
+        max-height: 80px;
+        margin-right: 5vw;
+    }
+
+    .container {
+        padding: 0vh 2vw;
+    }
+}

@@ -1,0 +1,108 @@
+.select2-selection__rendered {
+    line-height: 2.20rem !important;
+}
+
+.select2-container .select2-selection--single {
+    height: 2.20rem !important;
+}
+
+.select2-selection__arrow {
+    height: 2.20rem !important;
+}
+
+.img-pack {
+    margin-left: -300px;
+    margin-top: -220px;
+    max-width: auto !important;
+    width: auto;
+}
+
+.title-custom {
+    margin-top: 33px;
+}
+
+
+.word-image {
+    position: relative;
+    z-index: 2;
+    max-height: 500px; 
+    margin-left: 5vw;
+}
+
+.shadow-image {
+    position: absolute;
+    top: -15%; /* Adjust the vertical position as needed */
+    z-index: 1;
+    max-height: 600px;
+}
+
+.quiz {
+    max-width: 250px; max-height: 150px; margin-bottom: 3vh; margin-top: 8vh;
+}
+
+.paragrafo {
+    color: white; font-size: 20px; font-weight: 500; width: 80%; padding-left: 1.5vw;
+}
+
+.link-avancar {
+    margin-top: 50px; margin-left: 1.5vw; padding: 10px 30px; font-size: 20px;
+    max-width: inherit;
+}
+
+.container {
+    margin-top: 5vh;
+}
+
+@media (min-width: 336px) and (max-width: 720px) {
+
+    .container {
+        margin-top: 1vh;
+    }
+
+    .word-image {
+        max-height: 50vh; 
+        max-width: 5vw;
+        margin-left: 0;
+    }
+    
+    .shadow-image {
+        top: -15%; /* Adjust the vertical position as needed */
+        max-height: 300px;
+    }
+    
+    .quiz {
+        max-width: 100px; max-height: 80px; margin-bottom: 0; margin-top: 0; padding-left: 3vw;
+    }
+    
+    .paragrafo {
+        width: 95%; padding-left: 9vw;
+    }
+    
+    .link-avancar {
+        margin-top: 30px; margin-left: 7vw; padding: 10px 30px; font-size: 20px;
+        max-width: 85%;
+    }
+
+}
+
+@media screen and (max-width: 335px) {
+
+    .word-image {
+        margin-left: 0;
+    }
+
+    .quiz {
+       margin-bottom: 0; margin-top: 0; padding-left: 0;
+    }
+
+    .paragrafo {
+        width: 85vw; padding-left: 5vw;
+    }
+
+    .link-avancar {
+        max-width: 85vw;
+        min-width: 85vw;
+        margin-bottom: 3vh;
+    }
+    
+}
